@@ -1,0 +1,329 @@
+:root {
+  --primary-color: #015c4b;
+  --secondary-color: #e6f3f0;
+  --text-color: #333;
+  --light-text: #666;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+.logo {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Header */
+header {
+  padding: 1rem 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-in {
+  padding: 0.5rem 1.5rem;
+  background-color: white;
+  color: #006a50;
+  border-radius: 4px;
+  border: 1px solid #006a50;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  width: 90%;
+  margin: auto;
+  background-color: #c6e4d6;
+  padding: 4rem 5%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 20px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h2 {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.explore-btn {
+  padding: 0.8rem 2rem;
+  background-color: #006a50;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Pillars Section */
+/* .pillars {
+  padding: 4rem 5%;
+}
+
+.pillars h2 {
+  margin-bottom: 3rem;
+}
+
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.pillar-card {
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+} */
+
+/* Vision Section */
+/* .vision {
+  padding: 4rem 5%;
+}
+
+.vision h2 {
+  margin-bottom: 1rem;
+}
+
+.vision-text {
+  max-width: 800px;
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.vision-card {
+  background: #d5e1f5;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.vision-card-2 {
+  background: #c6e4d6;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.vision-card-3 {
+  background: #f7ebcf;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.vision-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #5490f5;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.vision-card-2 button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #09a15c;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.vision-card-3 button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffc239;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+} */
+
+/* Quote Section */
+/* .quote {
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+}
+.quote p{
+    font-size: 15px;
+    padding: 20px;
+}
+.quote-author{
+    padding: 20px;
+} */
+
+
+/* table section  */
+/* .tabel{
+  padding: 20px;
+  border: 1px solid rgb(169 169 169);
+  border-radius: 8px;
+  background-color: white;
+  width: 1220px;
+  margin-left: 70px;
+  height: 400px;
+  margin-top: 24px;
+}
+.mahafuz-tabil {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+}
+
+.mahafuz-tabil thead th {
+  background-color: #6bcea4;
+  padding: 24px;
+  text-align: left;
+  font-size: 20px;
+}
+.mahafuz-tabil tbody td {
+  padding: 24px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 10px;
+  background: #ebebeb;
+}
+.mahafuz-tabil tbody td {
+  padding: 24px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 10px;
+  background: #ebebeb;
+}
+.mahafuz-tabil {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #c2c1c1;
+}
+h1.hi {
+  margin-left: 70px;
+  font-size: 40px;
+} */
+
+/* satalite */
+/* section.Bangladesh-sa {
+  height: 355px;
+  width: 1240px;
+  padding: 10px;
+  margin-top: 32px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin-left: 70px;
+}
+.Bangladesh-sa-boere {
+  display: flex
+;
+  margin-top: 32px;
+  margin-left: 70px;
+}
+.Bangladesh-t{
+  margin-left: 32px;
+}
+
+section.Bangladesh-sa {
+  border: 2px solid;
+ 
+}
+p.mahafuz {
+  margin-left: 70px;
+}
+.Bangabandhu-tital {
+  margin-left: 33px;
+} */
+
+
+/* button {
+  margin-top: 32px;
+  height: 48px;
+  width: 139px;
+  background-color: rgb(0, 106, 80);
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+} */
+
+/* taka */
+/* .all-card {
+  display: flex
+;
+  margin-top: 32px;
+  margin-left: 240px;
+  gap: 24px;
+}
+.taka-card {
+  height: 80px;
+  width: 160px;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 16px;
+  padding: 20px;
+  cursor: pointer;
+}
+.all-money {
+    text-align: center;
+    margin-top: 80px;
+} */
+
+
+/* input.input-amount {
+  height: 55px;
+  width: 800px;
+  margin-left: 290px;
+  margin-top: 32px;
+  border-radius: 2px;
+  border: 1px solid rgb(218, 218, 218);
+}
+button.Done {
+  margin-left: 650px;
+} */
+
+/* foter */
+/* .footer {
+  height: 400px;
+  width: 1200px;
+  background-color: #c6e4d6;
+  padding: 100px;
+  margin-top: 80px;
+  border-radius: 24px;
+  margin-left: 55px;
+} */
